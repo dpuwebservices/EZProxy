@@ -71,6 +71,9 @@ a:hover {
   background: #385f8a;
   color: white;
 }
+#footer a {
+  color: white;
+}
 
 .head {
   background: #385f8a;
