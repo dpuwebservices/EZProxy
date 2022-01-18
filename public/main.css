@@ -68,7 +68,8 @@ a:hover {
   padding: 10px 20px;
   font-size: 12px;
   text-align: left;
-  color: #565656;
+  background: #385f8a;
+  color: white;
 }
 
 .head {

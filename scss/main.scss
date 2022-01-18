@@ -4,10 +4,9 @@ $origBlue: #385f8a;
 * {
     margin: 0;
     padding: 0;
-  }
-  
-  
-  body {
+}
+
+body {
     padding: 0;
     color: #333;
     margin: 0;
@@ -15,54 +14,48 @@ $origBlue: #385f8a;
     line-height: 1.618;
 
     .mono {
-        font-family:'Courier New', Courier, monospace;
-        font-weight:bold;
-        font-size:larger;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        font-size: larger;
     }
 
     form {
-        label, 
+        label,
         input {
-          display: block;
-          font-size:16px;
-          width: 150px;
-          float: left;
-          margin-bottom: 10px;
-          height:20px;
+            display: block;
+            font-size: 16px;
+            width: 150px;
+            float: left;
+            margin-bottom: 10px;
+            height: 20px;
         }
-        
-        label {
-          text-align: right;
-          width: 75px;
-          padding-right: 20px;
-        }
-        #submit{
 
-            background:$origBlue;
-            color:white;
-            margin:0 0 30px 0;
+        label {
+            text-align: right;
+            width: 75px;
+            padding-right: 20px;
+        }
+        #submit {
+            background: $origBlue;
+            color: white;
+            margin: 0 0 30px 0;
         }
     }
-    
 
-    
     br {
-      clear: both;
-    }    
-  }
+        clear: both;
+    }
 
-  h1 {
+}
+
+h1 {
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: bold;
     line-height: 1;
     color: rgba(9, 70, 101, 0.9);
-  }
-  
+}
 
-  
-
-  
-  .lib_warning_alert {
+.lib_warning_alert {
     background-color: #ffcccc;
     border-color: #cc3333;
     border-style: dotted;
@@ -71,32 +64,26 @@ $origBlue: #385f8a;
     width: 40em;
     margin-bottom: 10px;
     margin-top: 10px;
-  }
-  
-  a {
+}
+
+a {
     color: #005c96;
     text-decoration: underline;
 
     &:hover {
         text-decoration: none;
-      }
-  }
-  
+    }
+}
 
-  
-  #footer {
+#footer {
     padding: 10px 20px;
     font-size: 12px;
     text-align: left;
-    color: #565656;
-  }
+    background:$origBlue;
+    color:white;
+}
 
-
-
- 
-
-  
-  .head {
+.head {
     background: $origBlue;
     height: 110px;
     border-top: 4px solid #052c41;
@@ -104,32 +91,29 @@ $origBlue: #385f8a;
     .unit {
         float: left;
         padding: 0 3% 0 3%;
-      }
-      
-      .logo-short {
+    }
+
+    .logo-short {
         background: url("dpu-logo-short.png") no-repeat;
         padding: 0.3em 0.3em 0.4em 0.3em;
         width: 190px;
         height: 45px;
         border-right: 2px solid #fff;
-      }
-      
-      a.site-title-long {
+    }
+
+    a.site-title-long {
         color: #fff !important;
         font-size: 200%;
         padding-top: 0.15em;
         padding-left: 22px;
         text-decoration: none;
-      }
-      
-      .size5of5 {
+    }
+
+    .size5of5 {
         width: 100%;
-      }
-      
-      .dpu-logo {
+    }
+
+    .dpu-logo {
         margin: 2.5em 0 1.5em 0;
-      }
-      
-    
-  }
-  
+    }
+}
