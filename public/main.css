@@ -66,14 +66,12 @@ a:hover {
   float: left;
   color: #565656;
 }
-
 #footer a:link,
 #footer a:visited {
   font-size: 10px;
   text-decoration: underline;
   color: #005c96;
 }
-
 #footer a:hover,
 #footer a:active {
   color: #005c96;
