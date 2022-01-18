@@ -69,11 +69,15 @@ a:hover {
   padding: 10px 20px;
   font-size: 12px;
   text-align: left;
-  background: #385f8a;
-  color: white;
 }
-#footer a {
-  color: white;
+@media screen and (max-width: 600px) {
+  #footer {
+    background: #385f8a;
+    color: white;
+  }
+  #footer a {
+    color: white;
+  }
 }
 
 .head {

@@ -80,9 +80,11 @@ a {
     padding: 10px 20px;
     font-size: 12px;
     text-align: left;
-    background:$origBlue;
-    color:white;
-    a{color:white;}
+    @media  screen and (max-width: 600px) {
+        background:$origBlue;
+        color:white;
+        a{color:white;}
+    }
 }
 
 .head {
