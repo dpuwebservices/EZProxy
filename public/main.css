@@ -15,17 +15,22 @@ body .mono {
   font-weight: bold;
   font-size: larger;
 }
-body label,
-body input {
+body form label,
+body form input {
   display: block;
   width: 150px;
   float: left;
   margin-bottom: 10px;
+  height: 20px;
 }
-body label {
+body form label {
   text-align: right;
   width: 75px;
   padding-right: 20px;
+}
+body form #submit {
+  background: #385f8a;
+  color: white;
 }
 body br {
   clear: both;

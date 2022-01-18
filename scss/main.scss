@@ -1,3 +1,4 @@
+$origBlue: #385f8a;
 * {
     margin: 0;
     padding: 0;
@@ -17,19 +18,29 @@
         font-size:larger;
     }
 
-    label,
-    input {
-      display: block;
-      width: 150px;
-      float: left;
-      margin-bottom: 10px;
+    form {
+        label, 
+        input {
+          display: block;
+          width: 150px;
+          float: left;
+          margin-bottom: 10px;
+          height:20px;
+        }
+        
+        label {
+          text-align: right;
+          width: 75px;
+          padding-right: 20px;
+        }
+        #submit{
+
+            background:$origBlue;
+            color:white;
+        }
     }
     
-    label {
-      text-align: right;
-      width: 75px;
-      padding-right: 20px;
-    }
+
     
     br {
       clear: both;
@@ -82,7 +93,7 @@
 
   
   .head {
-    background: #385f8a;
+    background: $origBlue;
     height: 110px;
     border-top: 4px solid #052c41;
 
