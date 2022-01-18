@@ -32,6 +32,7 @@ body form label {
 body form #submit {
   background: #385f8a;
   color: white;
+  height: 30px;
   margin: 0 0 30px 0;
 }
 body br {
