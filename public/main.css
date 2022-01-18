@@ -92,6 +92,7 @@ a:hover {
   font-size: 200%;
   padding-top: 0.15em;
   padding-left: 22px;
+  text-decoration: none;
 }
 .head .size5of5 {
   width: 100%;
