@@ -1,32 +1,45 @@
 * {
     margin: 0;
     padding: 0;
-}
-body {
+  }
+  
+  
+  body {
     padding: 0;
     color: #333;
     margin: 0;
     font-family: "Source Sans Pro", sans-serif !important;
     line-height: 1.618;
-}
-label,
-input {
+  }
+
+  h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    color: rgba(9, 70, 101, 0.9);
+  }
+  
+
+  
+  label,
+  input {
     display: block;
     width: 150px;
     float: left;
     margin-bottom: 10px;
-}
-
-label {
+  }
+  
+  label {
     text-align: right;
     width: 75px;
     padding-right: 20px;
-}
-
-br {
+  }
+  
+  br {
     clear: left;
-}
-.lib_warning_alert {
+  }
+  
+  .lib_warning_alert {
     background-color: #ffcccc;
     border-color: #cc3333;
     border-style: dotted;
@@ -35,114 +48,64 @@ br {
     width: 40em;
     margin-bottom: 10px;
     margin-top: 10px;
-}
-
-a {
+  }
+  
+  a {
     color: #005c96;
-    text-decoration: none;
-}
-a:hover {
     text-decoration: underline;
-}
 
-#footer {
-    z-index: 1000;
-    padding-left: 20px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    vertical-align: bottom;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    &:hover {
+        text-decoration: none;
+      }
+  }
+  
+
+  
+  #footer {
+    padding: 10px 20px;
+    font-size: 12px;
     text-align: left;
-    text-decoration: none;
-    text-transform: none;
-    position: relative;
-    width: 539px;
-    float: left;
     color: #565656;
-    a:link,
-    a:visited {
-        font-size: 10px;
-        text-decoration: underline;
-        color: #005c96;
-    }
-    a:hover,
-    a:active {
-        color: #005c96;
-        text-decoration: underline;
-    }
-}
+  }
 
-h1 {
-    font-family: "Open Sans Condensed", sans-serif;
-    font-weight: bold;
-    line-height: 1;
-    color: rgba(9, 70, 101, 0.9);
-}
 
-// start header
-* {
-    padding: 0;
-    margin: 0;
-}
-* {
-    box-sizing: border-box;
-}
 
-#libbanner {
-    width: 756px;
-    margin-left: -80px;
-}
-.head {
+ 
+
+  
+  .head {
     background: #385f8a;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #385f8a 0%, #2b4c72 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #385f8a), color-stop(100%, #2b4c72));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #385f8a 0%, #2b4c72 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #385f8a 0%, #2b4c72 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #385f8a 0%, #2b4c72 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, #385f8a 0%, #2b4c72 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#385f8a', endColorstr='#2b4c72',GradientType=0 );
-    /* IE6-9 */
     height: 110px;
     border-top: 4px solid #052c41;
-}
-.unit {
-    float: left;
-    padding: 0 3% 0 3%;
-}
-.logo-short {
-    background: url("dpu-logo-short.png") no-repeat;
 
-    padding: 0.3em 0.3em 0.4em 0.3em;
-
-    -moz-border-radius-topleft: 0;
-
-    -moz-border-radius-topright: 0;
-
-    -moz-border-radius-bottomright: 3px;
-
-    -moz-border-radius-bottomleft: 3px;
-    width: 190px;
-    height: 45px;
-    border-right: 2px solid #fff;
-}
-a.site-title-long {
-    color: #fff !important;
-    font-size: 200%;
-    padding-top: 0.15em;
-    padding-left: 22px;
-}
-.size5of5 {
-    width: 100%;
-}
-.dpu-logo {
-    margin: 2.5em 0 1.5em 0;
-}
+    .unit {
+        float: left;
+        padding: 0 3% 0 3%;
+      }
+      
+      .logo-short {
+        background: url("dpu-logo-short.png") no-repeat;
+        padding: 0.3em 0.3em 0.4em 0.3em;
+        width: 190px;
+        height: 45px;
+        border-right: 2px solid #fff;
+      }
+      
+      a.site-title-long {
+        color: #fff !important;
+        font-size: 200%;
+        padding-top: 0.15em;
+        padding-left: 22px;
+      }
+      
+      .size5of5 {
+        width: 100%;
+      }
+      
+      .dpu-logo {
+        margin: 2.5em 0 1.5em 0;
+      }
+      
+    
+  }
+  
