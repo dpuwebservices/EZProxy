@@ -10,30 +10,32 @@ body {
   font-family: "Source Sans Pro", sans-serif !important;
   line-height: 1.618;
 }
+body .mono {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+body label,
+body input {
+  display: block;
+  width: 150px;
+  float: left;
+  margin-bottom: 10px;
+}
+body label {
+  text-align: right;
+  width: 75px;
+  padding-right: 20px;
+}
+body br {
+  clear: both;
+}
 
 h1 {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
   line-height: 1;
   color: rgba(9, 70, 101, 0.9);
-}
-
-label,
-input {
-  display: block;
-  width: 150px;
-  float: left;
-  margin-bottom: 10px;
-}
-
-label {
-  text-align: right;
-  width: 75px;
-  padding-right: 20px;
-}
-
-br {
-  clear: left;
 }
 
 .lib_warning_alert {
