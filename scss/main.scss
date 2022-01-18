@@ -24,6 +24,7 @@ body {
         input {
             display: block;
             font-size: 16px;
+            font-size-adjust: inherit;
             width: 150px;
             float: left;
             margin-bottom: 10px;
@@ -41,6 +42,7 @@ body {
             height: 30px;
             margin: 0 0 30px 0;
         }
+
     }
 
     br {
@@ -77,6 +79,7 @@ a {
 
 #footer {
     padding: 10px 20px;
+    margin: 0 auto;
     font-size: 12px;
     text-align: left;
     @media screen and (max-width: 600px) {
